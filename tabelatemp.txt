@@ -2,5 +2,5 @@ sintomas;profissionalSaude;estadoTeste;tipoTeste;resultadoTeste;sexo;estado;muni
 Tosse, Outros;Não;Coletado;RT-PCR;null;Feminino;SГO PAULO;Tremembй;52
 Dor de Garganta;Não;Exame Não Solicitado;null;null;Feminino;SГO PAULO;Vбrzea Paulista;38
 Dor de Cabeзa, Dor de Garganta, Febre, Tosse, Coriza;Não;Concluнdo;RT-PCR;Negativo;Masculino;SГO PAULO;Santana de Parnaнba;21
-Tosse;Não;Coletado;null;null;Masculino;SÃO ;Sгo Paulo;28
+Tosse;Não;Coletado;null;null;Masculino;SÃO ;Sгo Paulo;18
 Tosse, Dor de Cabeзa, Outros;Não;Concluнdo;RT-PCR;Negativo;Feminino;SГO PAULO;Jacareн;49
