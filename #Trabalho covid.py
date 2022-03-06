@@ -56,7 +56,7 @@ def main():
     Homens = finder(Lista, 'Masculino')
     Mulheres = finder(Lista, 'Feminino')
     Positivos = finder(Lista, 'Positivo')
-    Assint = finder(Lista, 'Assintom·tico')
+    Assint = finder(Lista, 'Assintom√°tico')
     Sintom = listaSintomaticos(Lista)
     acimacinq = acima50(Lista)
     abaixovin = abaixo20(Lista)
@@ -67,7 +67,7 @@ def main():
     print('Homens que testaram positivo:', calculoQtd(finder(Homens, 'Positivo')))
     print('Mulheres que testaram positivo:' , calculoQtd(finder(Mulheres, 'Positivo'))) 
     print('Pessoas que usaram o teste tipo RT-PCR:' , calculoQtd(finder(Lista, 'RT-PCR')))
-    print('Pessoas que usaram o teste tipo teste r·pido ? anticorpo:' , calculoQtd(finder(Lista, 'R¡PIDO - ANTICORPO')))
+    print('Pessoas que usaram o teste tipo teste r√°pido - anticorpo:' , calculoQtd(finder(Lista, 'RÔøΩPIDO - ANTICORPO')))
     print('Total pessoas assintomaticas: ' , calculoQtd(Assint))
     print('Total pessoas que sentiram febre:' , calculoQtd(finder(Lista, 'Febre')))
 
