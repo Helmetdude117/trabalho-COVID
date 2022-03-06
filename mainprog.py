@@ -20,13 +20,6 @@ def calculoQtd(list):
         quantity += 1
     return quantity
 
-def listaSintomaticos(lista):
-    final = []
-    for item in lista:
-        if 'Assintomatico' not in item:
-            final.append(item)
-    return final
-
 def acima50(lista):
     final = [] 
     for item in lista:
@@ -57,6 +50,13 @@ def finder2(Lista, parametro1, parametro2):
             res.append(item)
     return res
 
+def NOTfinder(lista,parametro):
+    final = []
+    for item in lista:
+        if parametro not in item:
+            final.append(item)
+    return final
+
 def main():
     Lista = arquivoLista()
     Total_pessoas = calculoQtd(Lista)
@@ -64,7 +64,7 @@ def main():
     Mulheres = finder(Lista, 'Feminino')
     Positivos = finder(Lista, 'Positivo')
     Assint = finder(Lista, 'Assintomático')
-    Sintom = listaSintomaticos(Lista)
+    Sintom = NOTfinder(Lista, 'Assintomático')
     acimacinq = acima50(Lista)
     abaixovin = abaixo20(Lista)
     print('Quantidade de pessoas que fizeram o teste:', Total_pessoas)
@@ -79,7 +79,7 @@ def main():
     print('Quantidade de pessoas que relataram ter sentido febre:' , calculoQtd(finder(Lista, 'Febre')))
     print('Quantidade de pessoas que relataram ter sentido dor de cabeça:', calculoQtd(finder(Lista, 'Dor de Cabeça')))
     print('Quantidade de pessoas que relataram ter sentido dor de garganta:', calculoQtd(finder(Lista, 'Dor de Garganta')))
-    print('Quantidade de mulheres, acima de 50 anos, assintomáticas:')
+    print('Quantidade de mulheres, acima de 50 anos, assintomáticas:'
     print('Quantidade de mulheres, acima de 50 anos, assintomáticos:')
     print('Quantidade de pessoas com menos de 20 anos sintomáticos:')
     print('Quantidade de sintomáticos na cidade de São Paulo:')
