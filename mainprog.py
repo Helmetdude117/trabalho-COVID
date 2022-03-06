@@ -86,7 +86,7 @@ def main():
     print('Quantidade de mulheres que testaram positivo:' , calculoQtd(finder(Mulheres, 'Positivo')), porcentagem(calculoQtd(finder(Mulheres, 'Positivo')), Total_pessoas)) 
     print('Quantidade de pessoas que fizeram o teste do tipo “RT-PCR”:' , calculoQtd(finder(Lista, 'RT-PCR')), porcentagem(calculoQtd(finder(Lista, 'RT-PCR')), Total_pessoas))
     print('Quantidade de pessoas que fizeram o teste do “teste rápido – anticorpo”:' , calculoQtd(finder(Lista, 'RÁPIDO - ANTICORPO')), porcentagem(calculoQtd(finder(Lista, 'RÁPIDO - ANTICORPO')), Total_pessoas))
-    print('Quantidade de pessoas assintomáticas:' , calculoQtd(Assint))
+    print('Quantidade de pessoas assintomáticas:' , calculoQtd(Assint), porcentagem(calculoQtd(Assint)),Total_pessoas)
     print('Quantidade de pessoas que relataram ter sentido febre:' , calculoQtd(finder(Lista, 'Febre')))
     print('Quantidade de pessoas que relataram ter sentido dor de cabeça:', calculoQtd(finder(Lista, 'Dor de Cabeça')))
     print('Quantidade de pessoas que relataram ter sentido dor de garganta:', calculoQtd(finder(Lista, 'Dor de Garganta')))
