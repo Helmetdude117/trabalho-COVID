@@ -12,7 +12,7 @@ Distúrbios Gustativos, Distúrbios Olfativos, Febre, Tosse, Outros;Não;Coletado;R
 Febre, Dor de Cabeça, Outros;Não;Coletado;RT-PCR;null;Feminino;SÃO PAULO;São Bernardo do Campo;33
 Tosse, Coriza, Distúrbios Gustativos;Não;Coletado;RT-PCR;null;Masculino;SÃO PAULO;Alambari;28
 Dor de Garganta, Coriza, Tosse, Febre;Sim;Concluído;RT-PCR;Positivo;Feminino;SÃO PAULO;São Paulo;66
-Assintomático;Não;Concluído;null;null;Feminino;SÃO PAULO;São Bernardo do Campo;65
+Assintomático;Não;Concluído;null;null;Masculino;SÃO PAULO;São Bernardo do Campo;65
 Febre, Dor de Cabeça, Outros, Distúrbios Gustativos;Não;Coletado;RT-PCR;null;Feminino;SÃO PAULO;São Paulo;40
 Dor de Garganta, Coriza;Não;Coletado;null;null;Feminino;SÃO PAULO;São Bernardo do Campo;29
 Dor de Garganta;Não;Exame Não Solicitado;null;null;Feminino;SÃO PAULO;São Paulo;12
