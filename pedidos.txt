@@ -9,7 +9,7 @@ Crie um programa em Pyhon que calcule e mostre:
 8. Quantidade de pessoas que fizeram o teste do ?teste rápido ? anticorpo?: XX (XX%)-------------
 9. Quantidade de pessoas assintomáticas: XX (XX%)-------------
 10. Quantidade de pessoas que relataram ter sentido febre: XX (XX%)-------------      
-11. Quantidade de pessoas que relataram ter sentido dor de cabeça: XX (XX%)
+11. Quantidade de pessoas que relataram ter sentido dor de cabeça: XX (XX%) --------------
 12. Quantidade de pessoas que relataram ter sentido dor de garganta: XX (XX%)
 13. Quantidade de mulheres, acima de 50 anos, assintomáticas: XX (XX%)
 14. Quantidade de mulheres, acima de 50 anos, assintomáticos: XX (XX%)
