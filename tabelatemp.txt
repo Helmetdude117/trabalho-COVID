@@ -1,4 +1,4 @@
-(linha vai ser excluida do programa)
+(primeira linha vai ser excluida do programa)
 Tosse, Outros, Coriza;Não;Concluído;RT-PCR;Negativo;Feminino;SÃO PAULO;São Paulo;33
 Coriza, Distúrbios Gustativos, Dor de Cabeça, Dor de Garganta;Não;Coletado;null;null;Feminino;SÃO PAULO;Mauá;32
 Outros, Assintomático;Não;Concluído;RT-PCR;Positivo;Masculino;SÃO PAULO;Ibitinga;11

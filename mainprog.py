@@ -12,7 +12,7 @@ def arquivoLista():
 
 def porcentagem(parte,inteiro):
     percentual = ( int(parte) / int(inteiro) ) * 100
-    return percentual + '%'
+    return '(' + str(percentual) + '%)'
 
 def calculoQtd(list):
     quantity = 0
@@ -71,6 +71,13 @@ def abaixo20(lista):
             final.append(item)
     return final
 
+def finder(Lista, parametro):
+    res = []
+    for item in Lista:
+        if parametro in item:
+            res.append(item)
+    return res
+
 def main():
     Lista = arquivoLista()
     Total_pessoas = calculoQtd(Lista)
@@ -81,7 +88,17 @@ def main():
     Sint = listaSintomaticos(Lista)
     acimacinq = acima50(Lista)
     abaixovin = abaixo20(Lista)
-    print('O total de pessoas que fizeram o teste foi: ', Total_pessoas)
-    print('O total de pessoas do sexo masculino foi: ' , calculoQtd(Homens), porcentagem(calculoQtd(Homens),Total_pessoas))
+    print('O total de pessoas que fizeram o teste foi:', Total_pessoas)
+    print('O total de pessoas do sexo masculino foi:' , calculoQtd(Homens), porcentagem(calculoQtd(Homens),Total_pessoas))
+    print('O total de pessoas do sexo feminino foi:' , calculoQtd(Mulheres), porcentagem(calculoQtd(Mulheres), Total_pessoas))
+    print('Total de pessoas que testaram positivo:', calculoQtd(Positivos))
+    print('Homens que testaram positivo:', calculoQtd(finder(Homens, 'Positivo')))
+    print('Mulheres que testaram positivo:' , calculoQtd(finder(Mulheres, 'Positivo'))) 
+    print('Pessoas que usaram o teste tipo RT-PCR:' , calculoQtd(finder(Lista, 'RT-PCR')))
+    print('Pessoas que usaram o teste tipo teste rápido – anticorpo' , calculoQtd(finder(Lista, 'teste rápido – anticorpo')))
+    print('Total pessoas assintomaticas: ' , calculoQtd(Assint))
+    print('Total pessoas que sentiram febre:' , calculoQtd(finder(Lista, 'Febre')))
     
-    main()
+    
+    
+main()

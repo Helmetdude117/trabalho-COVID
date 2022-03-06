@@ -1,18 +1,19 @@
-1. Quantidade de pessoas que fizeram o teste: XX
-2. Quantidade de pessoas do sexo masculino: XX (XX%)
-3. Quantidade de pessoas do sexo feminino: XX (XX%)
-4. Quantidade de pessoas que testaram positivo: XX
-5. Quantidade de homens que testaram positivo: XX (XX%)
-6. Quantidade de mulheres que testaram positivo: XX (XX%)
-7. Quantidade de pessoas que fizeram o teste do tipo ‚ÄúRT-PCR‚Äù: XX (XX%)
-8. Quantidade de pessoas que fizeram o teste do ‚Äúteste r√°pido ‚Äì anticorpo‚Äù: XX (XX%)
-9. Quantidade de pessoas assintom√°ticas: XX (XX%)
-10. Quantidade de pessoas que relataram ter sentido febre: XX (XX%)
-11. Quantidade de pessoas que relataram ter sentido dor de cabe√ßa: XX (XX%)
+Crie um programa em Pyhon que calcule e mostre:
+1. Quantidade de pessoas que fizeram o teste: XX-------------
+2. Quantidade de pessoas do sexo masculino: XX (XX%)-------------
+3. Quantidade de pessoas do sexo feminino: XX (XX%)-------------
+4. Quantidade de pessoas que testaram positivo: XX-------------
+5. Quantidade de homens que testaram positivo: XX (XX%)-------------
+6. Quantidade de mulheres que testaram positivo: XX (XX%)-------------
+7. Quantidade de pessoas que fizeram o teste do tipo ?RT-PCR?: XX (XX%)-------------
+8. Quantidade de pessoas que fizeram o teste do ?teste r·pido ? anticorpo?: XX (XX%)-------------
+9. Quantidade de pessoas assintom·ticas: XX (XX%)-------------
+10. Quantidade de pessoas que relataram ter sentido febre: XX (XX%)-------------      
+11. Quantidade de pessoas que relataram ter sentido dor de cabeÁa: XX (XX%)
 12. Quantidade de pessoas que relataram ter sentido dor de garganta: XX (XX%)
-13. Quantidade de mulheres, acima de 50 anos, assintom√°ticas: XX (XX%)
-14. Quantidade de mulheres, acima de 50 anos, assintom√°ticos: XX (XX%)
-15. Quantidade de pessoas com menos de 20 anos sintom√°ticos: XX (XX%)
-16. Quantidade de sintom√°ticos na cidade de S√£o Paulo: XX (XX%)
-17. Quantidade de mulheres sintom√°ticas na cidade de Dracena: XX (XX%)
-18. Quantidade de homens, maiores de 50 anos, sintom√°ticos na cidade de Bauru: XX (XX%)
+13. Quantidade de mulheres, acima de 50 anos, assintom·ticas: XX (XX%)
+14. Quantidade de mulheres, acima de 50 anos, assintom·ticos: XX (XX%)
+15. Quantidade de pessoas com menos de 20 anos sintom·ticos: XX (XX%)
+16. Quantidade de sintom·ticos na cidade de S„o Paulo: XX (XX%)
+17. Quantidade de mulheres sintom·ticas na cidade de Dracena: XX (XX%)
+18. Quantidade de homens, maiores de 50 anos, sintom·ticos na cidade de Bauru: XX (XX%)
