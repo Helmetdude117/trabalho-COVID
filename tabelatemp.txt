@@ -16,5 +16,5 @@ Assintomático;Não;Concluído;null;null;Feminino;SÃO PAULO;São Bernardo do Campo;6
 Febre, Dor de Cabeça, Outros, Distúrbios Gustativos;Não;Coletado;RT-PCR;null;Feminino;SÃO PAULO;São Paulo;40
 Dor de Garganta, Coriza;Não;Coletado;null;null;Feminino;SÃO PAULO;São Bernardo do Campo;29
 Dor de Garganta;Não;Exame Não Solicitado;null;null;Feminino;SÃO PAULO;São Paulo;12
-Assintomático;Não;Concluído;null;null;Feminino;SÃO PAULO;Barretos;48
+Assintomático;Não;Concluído;null;null;Feminino;SÃO PAULO;Barretos;50
 Outros;Não;Concluído;RT-PCR;Positivo;Masculino;SÃO PAULO;São Paulo;50

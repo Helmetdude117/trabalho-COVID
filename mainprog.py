@@ -76,6 +76,7 @@ def main():
     abaixovin = abaixo20(Lista)
     mulheres50anos = finder(acimacinq, 'Feminino')
     homens50anos = finder(acimacinq, 'Masculino')
+    assint_50 = repetidos(acimacinq, Assint)
 
     print('Quantidade de pessoas que fizeram o teste:', Total_pessoas)
     print('Quantidade de pessoas do sexo masculino:' , calculoQtd(Homens), porcentagem(calculoQtd(Homens),Total_pessoas))
@@ -90,7 +91,7 @@ def main():
     print('Quantidade de pessoas que relataram ter sentido dor de cabeça:', calculoQtd(finder(Lista, 'Dor de Cabeça')))
     print('Quantidade de pessoas que relataram ter sentido dor de garganta:', calculoQtd(finder(Lista, 'Dor de Garganta')))
     print('Quantidade de mulheres, acima de 50 anos, assintomáticas:', calculoQtd(finder(mulheres50anos, 'Assintomáticas')), porcentagem(calculoQtd(finder(mulheres50anos, 'Assintomáticas')), Total_pessoas) )
-    print('Quantidade de homens, acima de 50 anos, assintomáticos:')
+    print('Quantidade de homens, acima de 50 anos, assintomáticos:', calculoQtd(finder(assint_50, 'Masculino')), porcentagem(calculoQtd(finder(assint_50, 'Masculino'))) )
     print('Quantidade de pessoas com menos de 20 anos sintomáticos:', calculoQtd(finder(abaixovin, 'Assintomático')), porcentagem(calculoQtd(finder(abaixovin, 'Assintomático')), Total_pessoas))
     print('Quantidade de sintomáticos na cidade de São Paulo:', calculoQtd(finder(Sintom, 'Sao Paulo')), porcentagem(calculoQtd(finder(Sintom,'Sao Paulo')), Total_pessoas))
     print('Quantidade de mulheres sintomáticas na cidade de Dracena:', calculoQtd(finder(Sintom, 'Feminino')), porcentagem(calculoQtd(finder(Sintom, 'Feminino')),Total_pessoas))
