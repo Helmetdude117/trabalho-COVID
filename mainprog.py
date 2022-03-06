@@ -84,6 +84,6 @@ def main():
     print('Quantidade de pessoas com menos de 20 anos sintomáticos:')
     print('Quantidade de sintomáticos na cidade de São Paulo:')
     print('Quantidade de mulheres sintomáticas na cidade de Dracena:')
-    print('Quantidade de homens, maiores de 50 anos, sintomáticos na cidade de Bauru:', calculoQtd(finder2(acimacinq, ('Masculino'), ('Bauru'))))
+    print('Quantidade de homens, maiores de 50 anos, sintomáticos na cidade de Bauru:', calculoQtd(finder2(acimacinq, ('Masculino'), ('Bauru')), porcentagem(calculoQtd(finder2(acimacinq, ('Masculino'), ('Bauru')), Total_pessoas))))
     
 main()
