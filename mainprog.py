@@ -86,12 +86,17 @@ def main():
     print('Quantidade de mulheres que testaram positivo:' , calculoQtd(finder(Mulheres, 'Positivo')), porcentagem(calculoQtd(finder(Mulheres, 'Positivo')), Total_pessoas)) 
     print('Quantidade de pessoas que fizeram o teste do tipo “RT-PCR”:' , calculoQtd(finder(Lista, 'RT-PCR')), porcentagem(calculoQtd(finder(Lista, 'RT-PCR')), Total_pessoas))
     print('Quantidade de pessoas que fizeram o teste do “teste rápido – anticorpo”:' , calculoQtd(finder(Lista, 'RÁPIDO - ANTICORPO')), porcentagem(calculoQtd(finder(Lista, 'RÁPIDO - ANTICORPO')), Total_pessoas))
-    print('Quantidade de pessoas assintomáticas:' , calculoQtd(Assint))
+    print('Quantidade de pessoas assintomáticas:' , calculoQtd(Assint), porcentagem(calculoQtd(Assint)),Total_pessoas)
     print('Quantidade de pessoas que relataram ter sentido febre:' , calculoQtd(finder(Lista, 'Febre')))
     print('Quantidade de pessoas que relataram ter sentido dor de cabeça:', calculoQtd(finder(Lista, 'Dor de Cabeça')))
     print('Quantidade de pessoas que relataram ter sentido dor de garganta:', calculoQtd(finder(Lista, 'Dor de Garganta')))
+<<<<<<< HEAD
     print('Quantidade de mulheres, acima de 50 anos, assintomáticas:')
     print('Quantidade de homens, acima de 50 anos, assintomáticos:')
+=======
+    print('Quantidade de mulheres, acima de 50 anos, assintomáticas:', calculoQtd(finder(mulheres50anos, 'Assintomáticas')), porcentagem(calculoQtd(finder(mulheres50anos, 'Assintomáticas')), Total_pessoas) )
+    print('Quantidade de homens, acima de 50 anos, assintomáticos:', calculoQtd(finder(assint_50, 'Masculino')), porcentagem(calculoQtd(finder(assint_50, 'Masculino'))))
+>>>>>>> f72427b25ba5b89613300006619dd4360e5b093e
     print('Quantidade de pessoas com menos de 20 anos sintomáticos:', calculoQtd(finder(abaixovin, 'Assintomático')), porcentagem(calculoQtd(finder(abaixovin, 'Assintomático')), Total_pessoas))
     print('Quantidade de sintomáticos na cidade de São Paulo:', calculoQtd(finder(Sintom, 'Sao Paulo')), porcentagem(calculoQtd(finder(Sintom,'Sao Paulo')), Total_pessoas))
     print('Quantidade de mulheres sintomáticas na cidade de Dracena:', calculoQtd(finder(Sintom, 'Feminino')), porcentagem(calculoQtd(finder(Sintom, 'Feminino')),Total_pessoas))
