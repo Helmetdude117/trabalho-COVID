@@ -67,6 +67,8 @@ def main():
     Sintom = NOTfinder(Lista, 'Assintomático')
     acimacinq = acima50(Lista)
     abaixovin = abaixo20(Lista)
+    homens50anos = finder(acimacinq, 'Masculino')
+
     print('Quantidade de pessoas que fizeram o teste:', Total_pessoas)
     print('Quantidade de pessoas do sexo masculino:' , calculoQtd(Homens), porcentagem(calculoQtd(Homens),Total_pessoas))
     print('Quantidade de pessoas do sexo feminino:' , calculoQtd(Mulheres), porcentagem(calculoQtd(Mulheres), Total_pessoas))
@@ -84,6 +86,5 @@ def main():
     print('Quantidade de pessoas com menos de 20 anos sintomáticos:')
     print('Quantidade de sintomáticos na cidade de São Paulo:')
     print('Quantidade de mulheres sintomáticas na cidade de Dracena:')
-    print('Quantidade de homens, maiores de 50 anos, sintomáticos na cidade de Bauru:', calculoQtd(finder2(acimacinq, 'Masculino', 'Bauru'), porcentagem(calculoQtd(finder2(acimacinq, ('Masculino'), ('Bauru')), Total_pessoas))))
     
 main()
