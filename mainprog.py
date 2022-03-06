@@ -87,7 +87,7 @@ def main():
     print('Quantidade de pessoas com menos de 20 anos sintomáticos:')
     print('Quantidade de sintomáticos na cidade de São Paulo:')
     print('Quantidade de sintomáticos na cidade de São Paulo:', calculoQtd(finder(Sintom, 'Sao Paulo')), porcentagem(calculoQtd(finder(Sintom,'Sao Paulo')), Total_pessoas))
-    print('Quantidade de mulheres sintomáticas na cidade de Dracena:', calculoQtd(finder(Mulheres,Sintom)), porcentagem(calculoQtd(finder(Mulheres,Sintom)),Total_pessoas))
+    print('Quantidade de mulheres sintomáticas na cidade de Dracena:', calculoQtd(finder(Sintom, 'Feminino')), porcentagem(calculoQtd(finder(Sintom, 'Feminino')),Total_pessoas))
     print('Quantidade de homens, maiores de 50 anos, sintomáticos na cidade de Bauru:', calculoQtd(finder(homens50anos, 'Bauru')), porcentagem(calculoQtd(finder(homens50anos, 'Bauru')), Total_pessoas))
     
 main()
