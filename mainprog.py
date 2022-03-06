@@ -70,8 +70,5 @@ def main():
     print('Pessoas que usaram o teste tipo teste rápido – anticorpo:' , calculoQtd(finder(Lista, 'RÁPIDO - ANTICORPO')))
     print('Total pessoas assintomaticas: ' , calculoQtd(Assint))
     print('Total pessoas que sentiram febre:' , calculoQtd(finder(Lista, 'Febre')))
-
-    
-    
     
 main()
