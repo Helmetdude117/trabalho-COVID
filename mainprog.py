@@ -79,11 +79,11 @@ def main():
     print('Quantidade de pessoas que relataram ter sentido febre:' , calculoQtd(finder(Lista, 'Febre')))
     print('Quantidade de pessoas que relataram ter sentido dor de cabeça:', calculoQtd(finder(Lista, 'Dor de Cabeça')))
     print('Quantidade de pessoas que relataram ter sentido dor de garganta:', calculoQtd(finder(Lista, 'Dor de Garganta')))
-    print('Quantidade de mulheres, acima de 50 anos, assintomáticas:'
+    print('Quantidade de mulheres, acima de 50 anos, assintomáticas:')
     print('Quantidade de mulheres, acima de 50 anos, assintomáticos:')
     print('Quantidade de pessoas com menos de 20 anos sintomáticos:')
     print('Quantidade de sintomáticos na cidade de São Paulo:')
     print('Quantidade de mulheres sintomáticas na cidade de Dracena:')
-    print('Quantidade de homens, maiores de 50 anos, sintomáticos na cidade de Bauru:', calculoQtd(finder2(acimacinq, ('Masculino'), ('Bauru')), porcentagem(calculoQtd(finder2(acimacinq, ('Masculino'), ('Bauru')), Total_pessoas))))
+    print('Quantidade de homens, maiores de 50 anos, sintomáticos na cidade de Bauru:', calculoQtd(finder2(acimacinq, 'Masculino', 'Bauru'), porcentagem(calculoQtd(finder2(acimacinq, ('Masculino'), ('Bauru')), Total_pessoas))))
     
 main()
