@@ -53,8 +53,8 @@ def finder(Lista, parametro):
 def main():
     Lista = arquivoLista()
     Total_pessoas = calculoQtd(Lista)
-    Homens = finder(Lista, 'Homens')
-    Mulheres = finder(Lista, 'Mulheres')
+    Homens = finder(Lista, 'Masculino')
+    Mulheres = finder(Lista, 'Feminino')
     Positivos = finder(Lista, 'Positivo')
     Assint = finder(Lista, 'Assintomático')
     Sintom = listaSintomaticos(Lista)
@@ -67,7 +67,7 @@ def main():
     print('Homens que testaram positivo:', calculoQtd(finder(Homens, 'Positivo')))
     print('Mulheres que testaram positivo:' , calculoQtd(finder(Mulheres, 'Positivo'))) 
     print('Pessoas que usaram o teste tipo RT-PCR:' , calculoQtd(finder(Lista, 'RT-PCR')))
-    print('Pessoas que usaram o teste tipo teste rápido – anticorpo' , calculoQtd(finder(Lista, 'teste rápido – anticorpo')))
+    print('Pessoas que usaram o teste tipo teste rápido – anticorpo:' , calculoQtd(finder(Lista, 'teste rápido – anticorpo')))
     print('Total pessoas assintomaticas: ' , calculoQtd(Assint))
     print('Total pessoas que sentiram febre:' , calculoQtd(finder(Lista, 'Febre')))
     
