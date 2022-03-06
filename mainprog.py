@@ -20,34 +20,6 @@ def calculoQtd(list):
         quantity += 1
     return quantity
 
-def listaHomens(lista):
-    homens = []
-    for item in lista:
-        if 'Masculino' in item:
-            homens.append(item)
-    return homens
-
-def listaMulheres(lista):
-    mulheres = []
-    for item in lista:
-        if 'Feminino' in item:
-            mulheres.append(item)
-    return mulheres
-
-def listaPositivo(lista):
-    final = []
-    for item in lista:
-        if 'Positivo' in item:
-            final.append(item)
-    return final
-
-def listaAssintomaticos(lista):
-    final = []
-    for item in lista:
-        if 'Assintomático' in item:
-            final.append(item)
-    return final
-
 def listaSintomaticos(lista):
     final = []
     for item in lista:
@@ -81,11 +53,11 @@ def finder(Lista, parametro):
 def main():
     Lista = arquivoLista()
     Total_pessoas = calculoQtd(Lista)
-    Homens = listaHomens(Lista)
-    Mulheres = listaMulheres(Lista)
-    Positivos = listaPositivo(Lista)
-    Assint = listaAssintomaticos(Lista)
-    Sint = listaSintomaticos(Lista)
+    Homens = finder(Lista, 'Homens')
+    Mulheres = finder(Lista, 'Mulheres')
+    Positivos = finder(Lista, 'Positivo')
+    Assint = finder(Lista, 'Assintomático')
+    Sintom = listaSintomaticos(Lista)
     acimacinq = acima50(Lista)
     abaixovin = abaixo20(Lista)
     print('O total de pessoas que fizeram o teste foi:', Total_pessoas)
