@@ -12,11 +12,11 @@ def arquivoLista():
 
 def porcentagem(parte,inteiro):
     percentual = ( int(parte) / int(inteiro) ) * 100
-    return percentual
+    return percentual + '%'
 
 def calculoQtd(list):
     quantity = 0
-    for item in list:
+    for i in list:
         quantity += 1
     return quantity
 
@@ -71,5 +71,17 @@ def abaixo20(lista):
             final.append(item)
     return final
 
-Lista = arquivoLista()
-print(abaixo20(Lista))
+def main():
+    Lista = arquivoLista()
+    Total_pessoas = calculoQtd(Lista)
+    Homens = listaHomens(Lista)
+    Mulheres = listaMulheres(Lista)
+    Positivos = listaPositivo(Lista)
+    Assint = listaAssintomaticos(Lista)
+    Sint = listaSintomaticos(Lista)
+    acimacinq = acima50(Lista)
+    abaixovin = abaixo20(Lista)
+    print('O total de pessoas que fizeram o teste foi: ', Total_pessoas)
+    print('O total de pessoas do sexo masculino foi: ' , calculoQtd(Homens), porcentagem(calculoQtd(Homens),Total_pessoas))
+    
+    main()
